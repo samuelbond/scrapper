@@ -9,16 +9,21 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
 ## To Install For Dev
    Run `git clone https://github.com/samuelbond/scrapper.git`
 
-### Using Virtualenv
+### Using virtualenv
    If you don't have virtualenv you can install it using pip `pip install virtualenv`
 
         Run mkdir scrapper_env
         Run virtualenv scrapper_env
         Run source bin/activate
         Run pip install -e scrapper
-        Run nosetests scrapper
 
-### To Run Unit Test Without Virtualenv
+   #### Running Unit Test on virtualenv
+        Run `nosetests scrapper`
+
+### Without virtualenv
+        python scrapper/setup.py install
+
+    #### Running Unit Test Without virtualenv
         python scrapper/setup.py test
 
 ### To Run Cucumber BDD Test

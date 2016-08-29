@@ -14,7 +14,7 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
 
         Run mkdir scrapper_env
         Run virtualenv scrapper_env
-        Run source bin/activate
+        Run source scrapper_env/bin/activate
 
 #### To install
    Run `pip install -e scrapper`

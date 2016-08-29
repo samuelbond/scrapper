@@ -17,8 +17,10 @@ config = {
         'lxml',
         'hurry.filesize',
         'simplejson',
+        'mock',
+        'requests_mock',
+        'nose'
         ],
-    'tests_require': ['mock', 'requests_mock', 'nose'],
     'test_suite': 'tests',
     'scripts': ['bin/scrapper']
 }

@@ -26,9 +26,6 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
 ### Running Unit Test with virtualenv
         nosetests scrapper/
 
-#### Running Unit Test Without virtualenv
-        python scrapper/setup.py test
-
 ### To Run Cucumber BDD Test
    The cucumber test requires ruby >= 2.0, for more info on installing visit https://www.ruby-lang.org/en/documentation/installation
 

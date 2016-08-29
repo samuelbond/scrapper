@@ -1,0 +1,12 @@
+source 'http://rubygems.org' do
+  gem 'process-helper'
+  gem 'cucumber'
+  gem 'childprocess'
+  gem 'rspec'
+  gem 'rspec-expectations'
+  gem 'test-unit'
+  gem 'awesome_print'
+  gem 'rest-assured'
+  gem 'sqlite3'
+  gem 'erubis'
+end

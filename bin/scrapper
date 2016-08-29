@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+import os
+from scrapper.core import Scrapper
+if __name__ == '__main__':
+    scrapper = Scrapper()
+    web_page_url = os.getenv('SCRAPE_URL', 'http://hiring-tests.s3-website-eu-west-1.amazonaws.com/2015_Developer_Scrape/5_products.html')
+    scrapper.scrape(web_page_url)
+    quit()

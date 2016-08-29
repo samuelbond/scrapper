@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd "$( dirname "$0" )"
+export SCRAPE_URL="http://localhost:8000/2015_Developer_Scrape/5_products.html"
+export SERVER_ENV="component-test"
+exec bundle exec cucumber "$@"

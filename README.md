@@ -17,13 +17,13 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
         Run source bin/activate
         Run pip install -e scrapper
 
-   #### Running Unit Test on virtualenv
-        Run `nosetests scrapper`
+#### Running Unit Test on virtualenv
+        Run nosetests scrapper
 
 ### Without virtualenv
         python scrapper/setup.py install
 
-    #### Running Unit Test Without virtualenv
+#### Running Unit Test Without virtualenv
         python scrapper/setup.py test
 
 ### To Run Cucumber BDD Test

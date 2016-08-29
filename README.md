@@ -23,7 +23,7 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
    Run `python scrapper/bin/scrapper`
    Or Run `chmod +x scrapper/bin/scrapper` and then `./scrapper/bin/scrapper`
 
-### Running Unit Test with virtualenv
+### To run Unit Test
         nosetests scrapper/
 
 ### To Run Cucumber BDD Test

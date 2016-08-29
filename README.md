@@ -4,9 +4,11 @@ A scrapper that scrapes Sainsbury grocery site - Ripe Fruits page and returns a 
 ## To Install
    Run `pip install https://github.com/samuelbond/scrapper.git `
 
+   If you don't have pip installed, visit https://pip.pypa.io/en/stable/installing/ for more info on installing pip
+
 ## To Install For Dev
    Run `git clone https://github.com/samuelbond/scrapper.git`
-   If you don't have pip installed, visit https://pip.pypa.io/en/stable/installing/ for more info on installing pip
+
 ### Using Virtualenv
    If you don't have virtualenv you can install it using pip `pip install virtualenv`
 

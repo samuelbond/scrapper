@@ -15,13 +15,16 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
         Run mkdir scrapper_env
         Run virtualenv scrapper_env
         Run source bin/activate
-        Run pip install -e scrapper
 
-#### Running Unit Test on virtualenv
-        Run nosetests scrapper
+#### To install
+   Run `pip install -e scrapper`
 
-### Without virtualenv
-        python scrapper/setup.py install
+#### To run scrapper
+   Run `python scrapper/bin/scrapper`
+   Or Run `chmod +x scrapper/bin/scrapper` and then `./scrapper/bin/scrapper`
+
+### Running Unit Test with virtualenv
+        nosetests scrapper/
 
 #### Running Unit Test Without virtualenv
         python scrapper/setup.py test
@@ -31,5 +34,12 @@ A scrapper that scrapes Sainsbury's grocery site - Ripe Fruits page and returns 
 
         Run cd scrapper/component-test/cucumber
         Run bundle install
-        if you don't have bundler you can install it by running gem install bundler
-        Run ./test
+   if you don't have bundler you can install it by running `gem install bundler`
+        Run `./test`
+
+   If you run into any permissions issue then you might need to run `sudo ./test` instead
+
+### Known Issues
+   When running `bundle install` on Ubuntu, there might be an error regarding sqlite, to resolve this issue
+   Run `apt-get install libsqlite3-dev` and then re-run `bundle install`
+

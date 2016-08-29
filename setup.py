@@ -18,7 +18,7 @@ config = {
         'hurry.filesize',
         'simplejson',
         ],
-    'tests_require': ['mock', 'requests_mock'],
+    'tests_require': ['mock', 'requests_mock', 'nose'],
     'test_suite': 'tests',
     'scripts': ['bin/scrapper']
 }
